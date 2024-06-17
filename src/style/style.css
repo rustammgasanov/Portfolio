@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --green:#5CF13D;
+    --body:#212121;
+    --yellow:#D5FF40;
+    --white:#fff;
+    --github-gray:#333333;
+    --instagram-pink:#c13584;
+    --linkedin-blue:#0077b5;
+    --telegram-blue:#0088cc;
+    --whatsapp-green:#128c7e;
+    --gmail-red:#e75a4d;
+}
+
+body,
+button,
+a,
+input{
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 1168px;
+    margin: 0 auto;
+    padding: 0 15px; /* добавим немного внутреннего отступа */
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px; /* уменьшение ширины для средних экранов */
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px; /* уменьшение ширины для планшетов */
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px; /* уменьшение ширины для мобильных устройств */
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%; /* полный размер для самых маленьких экранов */
+        padding: 0 10px; /* уменьшим внутренний отступ */
+    }
+}
