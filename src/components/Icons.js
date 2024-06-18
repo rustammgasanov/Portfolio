@@ -11,16 +11,16 @@ import data from '../data/Data'
 const Icons = () => {
   return (
     <div className='grid grid-cols-4 gap-[20px] mt-[40px] max-[900px]:grid-cols-2 max-[630px]:grid-cols-1 container'>
-      <a href={'data?.contact?.telegram'} className={`max-w-[630px] h-[200px] flex justify-center bg-[var(--telegram-blue)] inline-block rounded shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg max-[630px]:h-[150px]`}>
+      <a href={data?.contact?.telegram} className={`max-w-[630px] h-[200px] flex justify-center bg-[var(--telegram-blue)] inline-block rounded shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg max-[630px]:h-[150px]`}>
         <TelegramSvg/>
       </a>
-      <a href={'data?.contact?.linkedin'} className={`max-w-[630px] h-[200px] flex justify-center bg-[var(--linkedin-blue)] inline-block rounded shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg max-[630px]:h-[150px]`}>
+      <a href={data?.contact?.linkedin} className={`max-w-[630px] h-[200px] flex justify-center bg-[var(--linkedin-blue)] inline-block rounded shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg max-[630px]:h-[150px]`}>
         <LinkedinSvg/>
       </a>
-      <a href={'data?.contact?.whatsapp'} className={`max-w-[630px] h-[200px] flex justify-center bg-[var(--whatsapp-green)] inline-block rounded shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg max-[630px]:h-[150px]`}>
+      <a href={data?.contact?.whatsapp} className={`max-w-[630px] h-[200px] flex justify-center bg-[var(--whatsapp-green)] inline-block rounded shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg max-[630px]:h-[150px]`}>
         <WhatsappSvg/>
       </a>
-      <a href={'data?.contact?.mail'} className={`max-w-[630px] h-[200px] flex justify-center bg-[var(--gmail-red)] inline-block rounded shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg max-[630px]:h-[150px]`}>
+      <a href={data?.contact?.mail} className={`max-w-[630px] h-[200px] flex justify-center bg-[var(--gmail-red)] inline-block rounded shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg max-[630px]:h-[150px]`}>
         <GmailSvg/>
       </a>
         {/* <IconsCard
